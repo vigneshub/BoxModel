@@ -1,0 +1,267 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+html,
+body {
+height: 100%;
+width: 100%;
+font-family: 'PT Sans';
+}
+.container {
+margin: 1% auto;
+width: 98%;
+height: 100%;
+border-radius: 15px;
+}
+.navbar {
+background-color: #e8fbfc;
+height: 100%;
+width: 15%;
+vertical-align: top;
+position: relative;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+.main {
+background-color: #e8fbfc;
+width: 85%;
+height: 100%;
+vertical-align: top;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+.navbar>div {
+background-color: #e8fbfc;
+width: 100%;
+}
+.navbar>div:hover:not(.A1) {
+background-color: #749cdb;
+cursor: pointer;
+}
+.A1>*:hover {
+color: blue;
+cursor: pointer;
+}
+.navbar>div:not(.A1):not(#A-Bottom) {
+height: 45px;
+}
+.navbar>div:not(.A1):not(#A-Bottom)>p {
+height: 45px;
+display: inline-block;
+margin-left: 15px;
+line-height: 45px;
+}
+.material-icons {
+vertical-align: middle;
+}
+.container>div {
+display: inline-block;
+}
+#A-Bottom {
+position: absolute;
+left: 0;
+bottom: 0;
+height: 65px;
+background-color: #f0c7e3;
+border-bottom-left-radius: 15px;
+}
+.A1 {
+height: 55px;
+font-weight: bold;
+border-radius: 15px;
+}
+.A1>p {
+display: inline-block;
+margin-left: 40px;
+line-height: 55px;
+}
+.mainx>div {
+display: inline-block;
+}
+.name {
+height: 8%;
+width: 100%;
+background-color: #a5d9d3;
+border-top-right-radius: 15px;
+}
+.name>div,
+.patientlist>div {
+display: inline-block;
+margin-left: 7%;
+line-height: 334%;
+}
+.patientlist {
+height: 8%;
+width: 100%;
+background-color: #2bd9c5;
+}
+.PatList:hover {
+cursor: pointer;
+color: blue;
+}
+.mainx {
+width: 100%;
+height: 84%;
+}
+.main1 {
+width: 65%;
+height: 100%;
+vertical-align: top;
+}
+.profile {
+background-color: #f5e1f4;
+margin: 1% 1%;
+width: 98%;
+height: 48%;
+border-radius: 15px;
+}
+.profile>div {
+display: inline-block;
+}
+.profBasic {
+width: 40%;
+height: 100%;
+}
+.profBasic-box{
+width:70%;
+margin:0 auto;
+text-align:center;
+line-height:30px;
+}
+.profBasic>div{
+display:inline-block;
+width:100%;
+}
+.visit-past{
+width:50%;
+display: inline-block;
+border-right:.2px solid lightgrey;
+}
+.visit-upcoming{
+width:40%;
+display: inline-block;
+}
+.prof-Img{
+border-radius:200px;
+width:30%;
+margin-left:35%;
+margin-top:10px;
+}
+.profBasic p{
+font-size: smaller;
+color: cadetblue;
+}
+.btn-SendMsg{
+display:block;
+border: 0.5px solid lightgrey;
+border-radius:6px;
+cursor:pointer;
+margin-top:5px;
+}
+.profDetail {
+width: 58%;
+height: 100%;
+vertical-align:top;
+border-left:5px solid #e8fbfc;
+display:inline-block;
+}
+.profDetail>div{
+display:inline-block;
+border-bottom:.02px solid lightgrey;
+margin:1.66% 1.66%;
+width:30%;
+height:25%;
+vertical-align:top;
+overflow:auto;
+}
+.profDetail-Name{
+height:25%;
+font-size: small;
+color:cadetblue;
+}
+.profDetail-Value{
+height:75%;
+font-size: small;
+vertical-align:bottom;
+}
+.appointment {
+background-color: #f5d78e;
+margin: 1% 1%;
+width: 98%;
+height: 48%;
+border-radius: 15px;
+}
+.main2 {
+width: 35%;
+height: 100%;
+}
+.note-Box {
+height: 54%;
+background-color: #f2e6e1;
+margin: 1% 1%;
+width: 98%;
+border-radius: 15px;
+position: relative;
+}
+.note-Box>div{
+display:inline-block;
+}
+.note-Content {
+background-color: lightgrey;
+margin: 0 auto;
+display: block;
+height: 60%;
+width: 86%;
+border-radius: 5px;
+border: none;
+overflow: auto;
+padding:2%;
+position: relative;
+}
+.note-Button {
+position: absolute;
+top: 65%;
+left: 75%;
+color: #000000;
+border-radius: 5px;
+cursor: pointer;
+background-color: blue;
+color:white;
+border:none;
+padding:1%;
+}
+.note-Header {
+width:40%;
+height:10%;
+margin:2% 5% 0 5%;
+}
+#note-SeeAll{
+text-align:right;
+color:blue;
+cursor:pointer;
+}
+.note-Box>p {
+width:90%;
+height:4%;
+margin:1% auto;
+font-size:small;
+}
+.doc-Details {
+width:65%;
+height:4%;
+margin:1% 4.5%;
+font-size:small;
+}
+#note-Date {
+width:15%;
+text-align:right;
+vertical-align:top;
+}
+.files {
+height: 42%;
+background-color: #f2e6e1;
+margin: 1% 1%;
+width: 98%;
+border-radius: 15px;
+}
