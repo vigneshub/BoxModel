@@ -402,6 +402,7 @@ font-weight: bold;
 display:inline-block;
 height:100%;
 width:30%;
+  vertical-align: baseline;
 }
 .file-Header>input{
 display: none;
